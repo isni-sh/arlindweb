@@ -3,6 +3,7 @@ body{
 }
 
 /* navbar */
+
 .nav ul li{
     color: #333;
 }
@@ -29,6 +30,7 @@ body{
       font-weight: 600;
       letter-spacing: 0.2em;
       font-size: 14px;
+      padding-top: 10px;
       
   }
   #navbar{
@@ -40,6 +42,7 @@ body{
       -moz-transition: linear 0.5s ;
       -ms-transition: linear 0.5s ;
       -o-transition: linear 0.5s ;
+      display: none;
 }
 
 
