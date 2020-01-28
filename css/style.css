@@ -6,10 +6,10 @@ body{
 .nav ul li{
     color: #333;
 }
-.nav-link, .dropdown-item{
-    color: rgb(151, 151, 151)!important;
-    letter-spacing: 0.1em;
-
+.nav-link, .dropdown-item, .dropdown-toggle{
+    color: rgba(102, 102, 102, 0.801)!important;
+    letter-spacing: 0.2em;
+    font-weight: 600;
 }
 .dropdown>.dropdown-menu {
     top: 200%;
@@ -25,11 +25,11 @@ body{
       pointer-events: none;
   }
   .btn{
-      margin-top:3px ;
-      color: rgb(151, 151, 151);
+      color: rgba(102, 102, 102, 0.801);
       font-weight: 600;
-      letter-spacing: 0.1em;
-      font-size: 15px;
+      letter-spacing: 0.2em;
+      font-size: 14px;
+      
   }
   #navbar{
       position: fixed;
