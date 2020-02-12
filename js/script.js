@@ -1,7 +1,8 @@
-// window.addEventListener('scroll', function (e) {
-// if(e.scrollTop === "0px"){
-//     this.document.querySelector('#navbar').style.display = "none"
-// }
-// this.document.querySelector('#navbar').style.display = "inline-block"
+window.addEventListener('scroll', function (e) {
 
-//  })
+    if(window.scrollY > 50){
+        document.querySelector('#navbar').style.display = "block"
+    }
+
+ })
+
